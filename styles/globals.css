@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .thom {
+    @apply outline outline-1 outline-rose-200;
+  }
+  .kurt {
+    @apply outline outline-1 outline-sky-200;
+  }
+}
