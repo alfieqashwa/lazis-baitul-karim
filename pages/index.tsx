@@ -21,7 +21,7 @@ export default function IndexPage() {
         <div className="flex max-w-[980px] flex-col items-start gap-2">
           <h1 className="text-3xl font-extrabold leading-tight  tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl">
             Lazis Baitul Karim <br className="hidden sm:inline" />
-            Cinta Yatim Dicinta Nabi.
+            Cinta Yatim di Cinta Nabi.
           </h1>
           <p className="max-w-[700px] text-lg text-slate-700 dark:text-slate-400 sm:text-xl">
             Lembaga Amil Zakat, Infaq dan Sodaqoh.

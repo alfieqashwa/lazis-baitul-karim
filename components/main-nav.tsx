@@ -31,23 +31,23 @@ interface MainNavProps {
 const components: { title: string; href: string; description: string }[] = [
   {
     title: "Program-program",
-    href: "/docs/primitives/alert-dialog",
+    href: "/program/programs",
     description: "Berbagai program jangka pendek & jangka panjang.",
   },
   {
     title: "Kegiatan-kegiatan",
-    href: "/docs/primitives/hover-card",
+    href: "/program/activities",
     description:
       "Santunan anak yatim, sosialisasi qurban, pengajian, sunatan massal, dan sebagainya.",
   },
   {
     title: "Rekening & Qris",
-    href: "/docs/primitives/tabs",
+    href: "/program/account-qris",
     description: "Rekening donasi LAZIS Baitul Karim",
   },
   {
     title: "Kontak",
-    href: "/docs/primitives/tooltip",
+    href: "/program/our-contact",
     description: "Alamat, telepon, akun sosial media dan email.",
   },
 ]
@@ -57,13 +57,7 @@ export function MainNav({ items }: MainNavProps) {
     <div className="flex gap-6 md:gap-10">
       <Link href="/" className="hidden items-center space-x-2 md:flex">
         {/* <Icons.logo className="h-6 w-6" /> */}
-        <Image
-          src="/favicon.ico"
-          alt="Lazis Baitul Karim"
-          width={40}
-          height={40}
-          className="rounded-full shadow"
-        />
+        <LogoLazis />
         <span className="hidden font-bold sm:inline-block">
           {siteConfig.name}
         </span>
@@ -84,33 +78,33 @@ export function MainNav({ items }: MainNavProps) {
                           <li className="row-span-3">
                             <NavigationMenuLink asChild>
                               <a
-                                className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-rose-500 to-indigo-700 p-6 no-underline outline-none focus:shadow-md"
+                                className="flex h-full w-full select-none flex-col justify-center rounded-md bg-gradient-to-b from-rose-500 to-indigo-700 p-6 no-underline outline-none focus:shadow-md"
                                 href="/"
                               >
-                                <Icons.logo className="h-6 w-6 text-white" />
-                                <div className="mt-4 mb-2 text-lg font-medium text-white">
-                                  shadcn/ui
+                                {/* <Icons.logo className="h-6 w-6 text-white" /> */}
+                                <LogoLazis />
+                                <div className="my-4 text-lg font-medium text-white">
+                                  Lazis Baitul Karim
                                 </div>
                                 <p className="text-sm leading-tight text-white/90">
-                                  Beautifully designed components built with
-                                  Radix UI and Tailwind CSS.
+                                  Lembaga Amil Zakat, Infaq dan Sodaqoh.
                                 </p>
                               </a>
                             </NavigationMenuLink>
                           </li>
-                          <ListItem href="/docs" title="Profil">
+                          <ListItem href="/about-us/profile" title="Profil">
                             Kerjasama dengan <strong>LAZNAS</strong> Yatim
                             Mandiri.
                           </ListItem>
                           <ListItem
-                            href="/docs/installation"
+                            href="/about-us/vision-mission"
                             title="Visi & Misi"
                           >
                             Membangun kemandirian umat, khususnya yatim dan
                             dhu’afa.
                           </ListItem>
                           <ListItem
-                            href="/docs/primitives/typography"
+                            href="/about-us/organization"
                             title="Struktur Organisasi"
                           >
                             Prinsip-prinsip serta susunan kepengurusan.
@@ -209,3 +203,13 @@ const ListItem = React.forwardRef<
   )
 })
 ListItem.displayName = "ListItem"
+
+const LogoLazis = () => (
+  <Image
+    src="/favicon.ico"
+    alt="Lazis Baitul Karim"
+    width={40}
+    height={40}
+    className="rounded-full shadow"
+  />
+)
