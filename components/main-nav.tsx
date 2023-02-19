@@ -1,4 +1,5 @@
 import * as React from "react"
+import Image from "next/image"
 import Link from "next/link"
 
 import { NavItem } from "@/types/nav"
@@ -17,13 +18,10 @@ import {
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
-  navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 
 interface MainNavProps {
@@ -58,7 +56,14 @@ export function MainNav({ items }: MainNavProps) {
   return (
     <div className="flex gap-6 md:gap-10">
       <Link href="/" className="hidden items-center space-x-2 md:flex">
-        <Icons.logo className="h-6 w-6" />
+        {/* <Icons.logo className="h-6 w-6" /> */}
+        <Image
+          src="/favicon.ico"
+          alt="Lazis Baitul Karim"
+          width={40}
+          height={40}
+          className="rounded-full shadow"
+        />
         <span className="hidden font-bold sm:inline-block">
           {siteConfig.name}
         </span>
