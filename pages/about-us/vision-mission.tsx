@@ -22,7 +22,7 @@ export default function VissionPage() {
           <h2 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-5xl">
             Visi dan Misi
           </h2>
-          <section className="mt-8 space-y-8  text-lg tracking-wide">
+          <section className="mt-8 space-y-8 px-4 text-lg tracking-wide">
             <article className="space-y-2">
               <h3 className="text-xl font-bold">Visi</h3>
               <p>

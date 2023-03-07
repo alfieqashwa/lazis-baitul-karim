@@ -22,7 +22,7 @@ export default function ProfilePage() {
           <h2 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-5xl">
             Profil
           </h2>
-          <div className="mt-8 space-y-2 text-lg tracking-wide">
+          <section className="mt-8 space-y-2 text-lg tracking-wide">
             <p>
               Lembaga Amil Zakat, Infaq dan Shodaqoh (LAZIS) Baitul Karim
               berdiri pada hari Sabtu, 5 Februari 2022, ba’da ashar di masjid
@@ -48,7 +48,7 @@ export default function ProfilePage() {
               Yatim Mandiri memiliki <em>52 kantor</em> layanan di{" "}
               <em>14 propinsi</em> di Indonesia.
             </p>
-          </div>
+          </section>
         </div>
       </section>
     </Layout>
