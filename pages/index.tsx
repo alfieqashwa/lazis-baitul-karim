@@ -19,11 +19,11 @@ export default function IndexPage() {
       </Head>
       <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
         <div className="flex max-w-[980px] flex-col items-start gap-2">
-          <h1 className="text-3xl font-extrabold leading-tight  tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl">
+          <h1 className="text-3xl font-extrabold leading-tight tracking-tighter dark:bg-gradient-to-br dark:from-slate-50 dark:via-amber-400 dark:to-amber-600 dark:bg-clip-text dark:text-transparent sm:text-3xl md:text-5xl lg:text-6xl">
             Lazis Baitul Karim <br className="hidden sm:inline" />
             Cinta Yatim di Cinta Nabi.
           </h1>
-          <p className="max-w-[700px] text-lg text-slate-700 dark:text-slate-400 sm:text-xl">
+          <p className="max-w-[700px] text-lg text-slate-700 dark:text-slate-300 sm:text-xl">
             Lembaga Amil Zakat, Infaq dan Sodaqoh.
           </p>
         </div>

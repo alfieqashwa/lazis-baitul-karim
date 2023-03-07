@@ -14,7 +14,10 @@ export default function VissionPage() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
+      <section
+        id="vission-mission"
+        className="container grid items-center gap-6 pt-6 pb-8 md:py-10"
+      >
         <div className="min-h-screen">
           <h2 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-5xl">
             Visi dan Misi
