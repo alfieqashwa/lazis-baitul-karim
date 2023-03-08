@@ -177,7 +177,7 @@ const ManagerFundRaising = () => {
       </CollapsibleTrigger>
       <CollapsibleContent className="mt-9 flex flex-col space-y-5 px-4 lg:mt-12">
         {data.map((d) => (
-          <section className="flex items-center">
+          <section className="flex items-center" key={d.id}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               loading="lazy"
@@ -236,7 +236,7 @@ const ManagerProgram = () => {
       </CollapsibleTrigger>
       <CollapsibleContent className="mt-9 flex flex-col space-y-5 px-4 lg:mt-12">
         {data.map((d) => (
-          <section className="flex items-center">
+          <section className="flex items-center" key={d.id}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               loading="lazy"
