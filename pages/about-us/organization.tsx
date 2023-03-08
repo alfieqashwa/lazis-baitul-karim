@@ -27,7 +27,8 @@ export default function OrganizationPage() {
           <h2 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-5xl">
             Struktur Organisasi
           </h2>
-          <div className="mt-8">
+          <PembinaDanDewan />
+          <div className="mt-4">
             {/* STARTS DIRECTOR */}
             <article className="-mx-4 flex justify-center py-4 sm:-mx-0">
               <section className="flex items-center justify-start p-2">
@@ -104,6 +105,44 @@ export default function OrganizationPage() {
         </div>
       </section>
     </Layout>
+  )
+}
+
+const PembinaDanDewan = () => {
+  const [data] = useState([
+    { id: 1, name: "H. Agus Piliang" },
+    { id: 2, name: "H. Abdul Hakim" },
+    { id: 3, name: "Tri Waskito Adjie" },
+    { id: 4, name: "H. Ir. M. Rachmat Widayana, SE, MM" },
+    { id: 5, name: "H. Arlendri" },
+  ])
+
+  return (
+    <article className="p-4">
+      <section>
+        <h3 className="text-lg font-extrabold leading-tight tracking-tighter sm:text-xl md:text-2xl lg:text-4xl">
+          Pembina
+        </h3>
+        <ul className="mt-2">
+          {data.map((d) => (
+            <li
+              className="md:text-md pl-2 text-sm font-semibold sm:text-base lg:text-lg"
+              key={d.id}
+            >
+              {d.name}
+            </li>
+          ))}
+        </ul>
+      </section>
+      <section className="mt-4">
+        <h3 className="text-lg font-extrabold leading-tight tracking-tighter sm:text-xl md:text-2xl lg:text-4xl">
+          Dewan Pengawas Syari&apos;ah
+        </h3>
+        <p className="md:text-md mt-2 pl-2 text-sm font-semibold sm:text-base lg:text-lg">
+          Ustadz H. Hariri Suhairi
+        </p>
+      </section>
+    </article>
   )
 }
 
