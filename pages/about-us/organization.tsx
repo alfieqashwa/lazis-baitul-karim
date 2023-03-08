@@ -95,7 +95,7 @@ export default function OrganizationPage() {
             </article>
             {/* ENDS SUB-DIRECTORAL */}
             {/* STARTS MANAGERS */}
-            <article className="-mx-4 flex flex-col items-center justify-start space-y-12 py-8 md:-mx-0 md:space-y-16 lg:flex-row lg:items-start lg:justify-between lg:space-y-0 lg:px-12">
+            <article className="-mx-4 flex flex-col items-center justify-start space-y-8 py-8 md:-mx-0 md:space-y-16 lg:flex-row lg:items-start lg:justify-between lg:space-y-0 lg:px-12">
               <ManagerKeuangan />
               <ManagerFundRaising />
               <ManagerProgram />
