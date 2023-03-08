@@ -25,6 +25,7 @@ import {
 
 interface MainNavProps {
   items?: NavItem[]
+  mobileItems?: NavItem[]
 }
 
 const components: { title: string; href: string; description: string }[] = [
@@ -51,7 +52,7 @@ const components: { title: string; href: string; description: string }[] = [
   },
 ]
 
-export function MainNav({ items }: MainNavProps) {
+export function MainNav({ items, mobileItems }: MainNavProps) {
   return (
     <div className="flex gap-6 md:gap-10">
       <NextLink href="/" className="hidden items-center space-x-2 md:flex">
@@ -169,7 +170,7 @@ export function MainNav({ items }: MainNavProps) {
             </NextLink>
           </DropdownMenuLabel>
           <DropdownMenuSeparator />
-          {items?.map(
+          {mobileItems?.map(
             (item, index) =>
               item.href && (
                 <DropdownMenuItem key={index} asChild>

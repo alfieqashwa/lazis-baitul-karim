@@ -4,6 +4,7 @@ interface SiteConfig {
   name: string
   description: string
   mainNav: NavItem[]
+  mobileNav: NavItem[]
   links: {
     facebook: string
     instagram: string
@@ -19,6 +20,24 @@ export const siteConfig: SiteConfig = {
     {
       title: "Home",
       href: "/",
+    },
+  ],
+  mobileNav: [
+    {
+      title: "Home",
+      href: "/",
+    },
+    {
+      title: "Profil",
+      href: "/about-us/profile",
+    },
+    {
+      title: "Visi & Misi",
+      href: "/about-us/vision-mission",
+    },
+    {
+      title: "Organisasi",
+      href: "/about-us/organization",
     },
   ],
   links: {
