@@ -4,6 +4,7 @@ interface SiteConfig {
   name: string
   description: string
   mainNav: NavItem[]
+  mobileNav: NavItem[]
   links: {
     facebook: string
     instagram: string
@@ -21,9 +22,27 @@ export const siteConfig: SiteConfig = {
       href: "/",
     },
   ],
+  mobileNav: [
+    {
+      title: "Home",
+      href: "/",
+    },
+    {
+      title: "Profil",
+      href: "/about-us/profile",
+    },
+    {
+      title: "Visi & Misi",
+      href: "/about-us/vision-mission",
+    },
+    {
+      title: "Organisasi",
+      href: "/about-us/organization",
+    },
+  ],
   links: {
     facebook: "https://facebook.com/lazisbaitulkarim",
     instagram: "https://instagram.com/lazisbaitulkarim",
-    docs: "https://drive.google.com/file/d/1kPMmxkyWoKxvM3RmUmzvQ9LEqH2CN5Rn/view?usp=sharing",
+    docs: "https://drive.google.com/file/d/1mvOM3arrZjBDJBYvQoet4TVbVYNuiBXS/view?usp=share_link",
   },
 }

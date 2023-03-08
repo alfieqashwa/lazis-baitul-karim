@@ -78,3 +78,5 @@ cn("px-2 bg-slate-100 py-2 bg-slate-200")
 Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
 
 [Google Drive](https://drive.google.com/drive/folders/1U1Y34pa7mLJPBOx3YCEkBy1-O2chY6EY)
+--OR--
+[Google Drive](https://drive.google.com/file/d/1mvOM3arrZjBDJBYvQoet4TVbVYNuiBXS)
