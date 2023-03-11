@@ -116,9 +116,9 @@ const PembinaDanDewan = () => {
   ])
 
   return (
-    <article className="px-4">
-      <section>
-        <h3 className="text-lg font-extrabold leading-tight tracking-tighter sm:text-xl md:text-2xl lg:text-4xl">
+    <article className="flex w-full flex-col items-center space-y-6 md:mx-4 md:mt-4 md:flex-row md:items-start md:justify-between md:space-y-0 md:space-x-8">
+      <section className="w-full rounded-2xl border-4 border-slate-500 p-6 shadow-md dark:border-slate-200 dark:bg-slate-800 md:w-1/2">
+        <h3 className="text-lg font-extrabold leading-tight tracking-tighter sm:text-xl md:text-2xl lg:text-3xl">
           Pembina
         </h3>
         <ul className="mt-2">
@@ -132,8 +132,8 @@ const PembinaDanDewan = () => {
           ))}
         </ul>
       </section>
-      <section className="mt-4">
-        <h3 className="text-lg font-extrabold leading-tight tracking-tighter sm:text-xl md:text-2xl lg:text-4xl">
+      <section className="w-full rounded-2xl border-4 border-slate-500 p-6 shadow-md dark:border-slate-200 dark:bg-slate-800 md:w-1/2">
+        <h3 className="text-lg font-extrabold leading-tight tracking-tighter sm:text-xl md:text-2xl lg:text-3xl">
           Dewan Pengawas Syari&apos;ah
         </h3>
         <p className="md:text-md mt-2 pl-2 text-sm font-semibold sm:text-base lg:text-lg">
@@ -145,7 +145,7 @@ const PembinaDanDewan = () => {
 }
 
 const ManagerKeuangan = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(true)
   return (
     <Collapsible
       open={isOpen}
@@ -184,7 +184,7 @@ const ManagerFundRaising = () => {
     { id: 3, name: "Tasya Amalia", nickname: "tasya" },
     { id: 4, name: "Andriansyah", nickname: "andri" },
   ])
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(true)
   return (
     <Collapsible
       open={isOpen}
@@ -242,8 +242,9 @@ const ManagerProgram = () => {
   const [data] = useState([
     { id: 1, name: "Sunarto Sofjan, SE", nickname: "nanto" },
     { id: 2, name: "Ariandi Setiawan, S.Kom", nickname: "ari" },
+    { id: 3, name: "Erza Afsari", nickname: "ersa" },
   ])
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(true)
   return (
     <Collapsible
       open={isOpen}
