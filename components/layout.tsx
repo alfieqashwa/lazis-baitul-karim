@@ -10,7 +10,7 @@ export function Layout({ children }: LayoutProps) {
     <>
       <SiteHeader />
       <main className="min-w-[320px]">{children}</main>
-      <footer className="absolute bottom-0 w-full py-4">
+      <footer className="absolute bottom-0 w-full py-3">
         <div className="py-1 text-center text-xs font-medium text-slate-600 dark:text-slate-400">
           Copyright © {new Date().getFullYear()} by{" "}
           <a
