@@ -116,7 +116,7 @@ const PembinaDanDewan = () => {
   ])
 
   return (
-    <article className="flex w-full flex-col items-center space-y-6 md:mx-4 md:mt-4 md:flex-row md:items-start md:justify-between md:space-y-0 md:space-x-8">
+    <article className="mt-4 flex w-full flex-col items-center space-y-6 md:flex-row md:items-start md:justify-between md:space-y-0 md:space-x-8 md:px-4">
       <section className="w-full rounded-2xl border-4 border-slate-500 p-6 shadow-md dark:border-slate-200 dark:bg-slate-800 md:w-1/2">
         <h3 className="text-lg font-extrabold leading-tight tracking-tighter sm:text-xl md:text-2xl lg:text-3xl">
           Pembina
