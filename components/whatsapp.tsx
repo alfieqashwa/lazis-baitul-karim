@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { motion } from "framer-motion"
 
-const PHONE = "082211275656"
+const PHONE = "6282211275656"
 const SPACE = "%20"
 const CONTACT = `https://wa.me/${PHONE}?text=Assalaamu${SPACE}'alaikum!${SPACE}Saya${SPACE}hendak${SPACE}berinfaq${SPACE}melalui${SPACE}LAZIS${SPACE}Baitul${SPACE}Karim$.{SPACE}Bagaimana${SPACE}prosesnya${SPACE}?${SPACE}Syukran!`
 
