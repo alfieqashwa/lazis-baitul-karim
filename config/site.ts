@@ -39,6 +39,10 @@ export const siteConfig: SiteConfig = {
       title: "Organisasi",
       href: "/about-us/organization",
     },
+    {
+      title: "Prinsip & Program",
+      href: "/program/programs",
+    },
   ],
   links: {
     facebook: "https://facebook.com/lazisbaitulkarim",
