@@ -101,6 +101,9 @@ export default function OrganizationPage() {
           </article>
           {/* ENDS MANAGERS */}
         </div>
+        <article className="-mx-4 flex flex-col items-center justify-start pb-8 sm:-mx-0 sm:flex-row sm:justify-between sm:px-4 md:px-12">
+          <CreativeDigital />
+        </article>
       </section>
     </Layout>
   )
@@ -182,7 +185,6 @@ const ManagerFundRaising = () => {
     { id: 1, name: "Irwan Thoib", nickname: "thoib" },
     { id: 2, name: "Muhammad Andri", nickname: "andi" },
     { id: 3, name: "Tasya Amalia", nickname: "tasya" },
-    { id: 4, name: "Andriansyah", nickname: "andri" },
   ])
   const [isOpen, setIsOpen] = useState(true)
   return (
@@ -295,6 +297,39 @@ const ManagerProgram = () => {
           </section>
         ))}
       </CollapsibleContent>
+    </Collapsible>
+  )
+}
+
+const CreativeDigital = () => {
+  const [isOpen, setIsOpen] = useState(true)
+  return (
+    <Collapsible
+      open={isOpen}
+      onOpenChange={setIsOpen}
+      className="flex flex-col items-center justify-start p-2"
+    >
+      <CollapsibleTrigger asChild>
+        <Button variant="custom" size="sm">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            loading="lazy"
+            src="/img/leader/andri.jpg"
+            alt="Andri"
+            className="z-10 h-16 w-16 shrink-0 rounded-full object-cover shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20"
+          />
+          <div className="-ml-3 h-16 w-60 rounded-r-full bg-slate-50 shadow md:w-64">
+            <div className="flex flex-col items-center justify-between pt-2">
+              <h3 className="text-md font-semibold text-slate-900">
+                Andriansyah
+              </h3>
+              <h4 className="md:text-md text-sm font-bold uppercase text-sky-700">
+                it & creative digital
+              </h4>
+            </div>
+          </div>
+        </Button>
+      </CollapsibleTrigger>
     </Collapsible>
   )
 }
