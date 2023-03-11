@@ -41,12 +41,12 @@ const components: { title: string; href: string; description: string }[] = [
       "Santunan anak yatim, sosialisasi qurban, pengajian, sunatan massal, dan sebagainya.",
   },
   {
-    title: "Rekening & Qris",
+    title: "Rekening & QRIS",
     href: "/program/account-qris",
     description: "Rekening donasi LAZIS Baitul Karim",
   },
   {
-    title: "Kontak",
+    title: "Kontak Kami",
     href: "/program/our-contact",
     description: "Alamat, telepon, akun sosial media dan email.",
   },

@@ -43,6 +43,14 @@ export const siteConfig: SiteConfig = {
       title: "Prinsip & Program",
       href: "/program/programs",
     },
+    {
+      title: "Rekening & QRIS",
+      href: "/program/account-qris",
+    },
+    {
+      title: "Kontak Kami",
+      href: "/program/our-contact",
+    },
   ],
   links: {
     facebook: "https://facebook.com/lazisbaitulkarim",
