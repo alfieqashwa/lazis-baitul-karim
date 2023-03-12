@@ -25,11 +25,9 @@ export default function ActivitiesPage() {
           </h3>
           <p>
             Pada tanggal 5 Februari 2023 telah diadakan program Belanja Pangan
-            Bayar Dengan Doa. Dimana acara tersebut bersamaan dengan kegiatan
-            tasyakuran Milad ke-1 LAZIS Baitul Karim.
-          </p>
-          <p>
-            Acara ini dihadiri oleh
+            Bayar Dengan Doa, bersamaan dengan kegiatan tasyakuran Milad ke-1
+            LAZIS Baitul Karim di Lapangan Masjid Baitul Karim. Acara ini
+            dihadiri oleh
             <em> 130 orang Yatim & Dhuafa</em>. Selain itu, kegiatan tersebut
             juga dihadiri oleh{" "}
             <strong>
@@ -40,8 +38,7 @@ export default function ActivitiesPage() {
           <p>
             <strong>Pak Anies Baswedan</strong> yang sedianya hadir,{" "}
             <em>Alhamdulillah</em> mengirimkan video ucapan selamat atas
-            terselenggaranya acara ini. Kegiatan tersebut berlangsung pada Hari
-            Ahad, tanggal 5 Februari 2023 di Lapangan Masjid Baitul Karim.
+            terselenggaranya acara ini.
           </p>
         </div>
       </section>

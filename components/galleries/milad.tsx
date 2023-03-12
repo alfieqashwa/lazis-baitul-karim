@@ -31,7 +31,7 @@ export const MiladGallery = () => {
     <div className="mx-auto w-full max-w-7xl columns-2 gap-1 px-4 md:columns-3 lg:columns-5 xl:px-0">
       {milad?.map((m) => (
         <Image
-          className="w-full object-cover ring-4 ring-fuchsia-100"
+          className="w-full object-cover ring-4 ring-slate-100 dark:ring-fuchsia-100"
           src={`/img/milad/${m.title}.jpg`}
           alt={m.title}
           width="200"
