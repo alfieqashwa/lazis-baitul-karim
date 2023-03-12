@@ -1,7 +1,9 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import Image from "next/image"
+
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 
 export const MiladGallery = () => {
   const [milad] = useState([
@@ -28,17 +30,31 @@ export const MiladGallery = () => {
   ])
 
   return (
-    <div className="mx-auto w-full max-w-7xl columns-2 gap-1 px-4 md:columns-3 lg:columns-5 xl:px-0">
+    <div className="thom relative mx-auto w-full max-w-7xl columns-2 gap-1 px-4 md:columns-3 lg:columns-5 xl:px-0">
       {milad?.map((m) => (
-        <Image
-          className="w-full object-cover ring-4 ring-slate-100 dark:ring-fuchsia-100"
-          src={`/img/milad/${m.title}.jpg`}
-          alt={m.title}
-          width="200"
-          height="100"
-          priority
-          key={m.title}
-        />
+        <Dialog key={m.title}>
+          <DialogTrigger asChild className="cursor-pointer">
+            <Image
+              className="w-full object-cover ring-4 ring-slate-100 dark:ring-fuchsia-100"
+              src={`/img/milad/${m.title}.jpg`}
+              alt={m.title}
+              width="200"
+              height="100"
+              priority
+            />
+          </DialogTrigger>
+          <DialogContent className="grid min-h-screen min-w-full place-items-center">
+            <Image
+              className="-mx-6 max-w-sm object-cover sm:max-w-md lg:max-w-xl xl:max-w-2xl"
+              src={`/img/milad/${m.title}.jpg`}
+              alt={m.title}
+              width="800"
+              height="800"
+              priority
+              key={m.title}
+            />
+          </DialogContent>
+        </Dialog>
       ))}
     </div>
   )
