@@ -30,7 +30,7 @@ export const MiladGallery = () => {
   ])
 
   return (
-    <div className="thom relative mx-auto w-full max-w-7xl columns-2 gap-1 px-4 md:columns-3 lg:columns-5 xl:px-0">
+    <div className="relative mx-auto w-full max-w-7xl columns-2 gap-1 px-4 md:columns-3 lg:columns-5 xl:px-0">
       {milad?.map((m) => (
         <Dialog key={m.title}>
           <DialogTrigger asChild className="cursor-pointer">
