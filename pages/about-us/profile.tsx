@@ -24,7 +24,7 @@ export default function ProfilePage() {
         <section className="mt-4 space-y-2 text-lg tracking-wide">
           <p>
             Lembaga Amil Zakat, Infaq dan Shodaqoh (LAZIS) Baitul Karim berdiri
-            pada hari Sabtu, 5 Februari 2022, ba’da ashar di masjid Baitul
+            pada hari Sabtu, 5 Februari 2022, ba&apos;da ashar di masjid Baitul
             Karim, jalan Kebon Kacang 14-16 Tanah Abang Jakarta Pusat.
           </p>
           <p>

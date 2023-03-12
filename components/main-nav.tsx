@@ -84,10 +84,10 @@ export function MainNav({ items, mobileItems }: MainNavProps) {
                                 {/* <Icons.logo className="h-6 w-6 text-white" /> */}
                                 <LazisLogo />
                                 <div className="my-4 text-lg font-medium text-white">
-                                  Lazis Baitul Karim
+                                  LAZIS Baitul Karim
                                 </div>
                                 <p className="text-sm leading-tight text-white/90">
-                                  Lembaga Amil Zakat, Infaq dan Sodaqoh.
+                                  Lembaga Amil Zakat, Infaq dan Shodaqoh.
                                 </p>
                               </NextLink>
                             </NavigationMenuLink>

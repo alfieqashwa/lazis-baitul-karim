@@ -28,7 +28,10 @@ export default function ProgramsPage() {
           <p>
             Karakter seseorang yang fikiran, hati dan akhlaknya didasari dengan
             syariat islam dan merealisasikannya atas dasar iman yang tinggi.
-            INTEGRITAS Karakter seseorang yang menunjukkan kecerdasan tidak saja
+          </p>
+          <h3 className="pt-4 text-xl font-bold">INTEGRITAS</h3>
+          <p>
+            Karakter seseorang yang menunjukkan kecerdasan tidak saja
             intelektual, tapi juga kecerdasan emosional dan spiritual dengan
             melahirkan pribadi yang berakhlak.
           </p>
@@ -46,7 +49,7 @@ export default function ProgramsPage() {
       </section>
       <section className="container mt-4 grid items-center gap-6">
         <h2 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-5xl">
-          Program-program
+          Program
         </h2>
         <div className="space-y-2 text-lg tracking-wide">
           <h3 className="text-xl font-bold">Jangka Pendek</h3>
@@ -60,14 +63,14 @@ export default function ProgramsPage() {
           <h3 className="text-xl font-bold">Jangka Panjang</h3>
           <ul className="list-outside list-disc pl-4">
             <li>Jum&apos;at Berkah</li>
-            <li>Beasiswa Pendidikan Yatim dan Dhuafa</li>
-            <li>Sembako untuk keluarga Yatim dan Dhu’afa</li>
+            <li>Beasiswa Pendidikan Yatim dan Dhu&apos;afa</li>
+            <li>Sembako untuk keluarga Yatim dan Dhu&apos;afa</li>
             <li>Pembiayaan UMKM untuk memandirikan Yatim Dan Dhu’afa</li>
             <li>
               Bantuan untuk kaum muslimin yg terkena penyakit berat tapi tdk
               mampu berobat
             </li>
-            <li>Rumah Tahfidz untuk Yatim & Dhuafa</li>
+            <li>Rumah Tahfidz untuk Yatim & Dhu&apos;afa</li>
           </ul>
         </div>
       </section>
