@@ -1,5 +1,6 @@
 import Head from "next/head"
 
+import { MiladGallery } from "@/components/galleries/milad"
 import { Layout } from "@/components/layout"
 
 export default function ActivitiesPage() {
@@ -15,38 +16,36 @@ export default function ActivitiesPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
-        <div className="min-h-screen">
-          <h2 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-5xl">
-            Kegiatan-kegiatan
-          </h2>
-          <div className="mt-8 space-y-2 text-lg tracking-wide">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              assumenda explicabo pariatur consequatur soluta aliquid aspernatur
-              quibusdam, vitae dolores excepturi eum ipsa temporibus? Architecto
-              beatae consequuntur fugiat quam voluptate similique?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              assumenda explicabo pariatur consequatur soluta aliquid aspernatur
-              quibusdam, vitae dolores excepturi eum ipsa temporibus? Architecto
-              beatae consequuntur fugiat quam voluptate similique?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              assumenda explicabo pariatur consequatur soluta aliquid aspernatur
-              quibusdam, vitae dolores excepturi eum ipsa temporibus? Architecto
-              beatae consequuntur fugiat quam voluptate similique?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              assumenda explicabo pariatur consequatur soluta aliquid aspernatur
-              quibusdam, vitae dolores excepturi eum ipsa temporibus? Architecto
-              beatae consequuntur fugiat quam voluptate similique?
-            </p>
-          </div>
+        <h2 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-5xl">
+          Kegiatan-kegiatan
+        </h2>
+        <div className="mt-4 space-y-2 text-lg tracking-wide">
+          <h3 className="pt-4 text-xl font-bold">
+            MILAD KE – 1 LAZIS BAITUL KARIM
+          </h3>
+          <p>
+            Pada tanggal 5 Februari 2023 telah diadakan program Belanja Pangan
+            Bayar Dengan Doa. Dimana acara tersebut bersamaan dengan kegiatan
+            tasyakuran Milad ke-1 LAZIS Baitul Karim.
+          </p>
+          <p>
+            Acara ini dihadiri oleh
+            <em> 130 orang Yatim & Dhuafa</em>. Selain itu, kegiatan tersebut
+            juga dihadiri oleh{" "}
+            <strong>
+              Ibu Hj. Kurniasih Mufidayati - Anggota Komisi IX DPR RI
+            </strong>
+            .
+          </p>
+          <p>
+            <strong>Pak Anies Baswedan</strong> yang sedianya hadir,{" "}
+            <em>Alhamdulillah</em> mengirimkan video ucapan selamat atas
+            terselenggaranya acara ini. Kegiatan tersebut berlangsung pada Hari
+            Ahad, tanggal 5 Februari 2023 di Lapangan Masjid Baitul Karim.
+          </p>
         </div>
       </section>
+      <MiladGallery />
     </Layout>
   )
 }

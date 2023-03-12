@@ -1,5 +1,3 @@
-import { Footer } from "@mantine/core"
-
 import { SiteHeader } from "@/components/site-header"
 import { Copyright } from "./footer"
 import { Whatsapp } from "./whatsapp"
