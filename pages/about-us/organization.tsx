@@ -1,8 +1,8 @@
 import { useState } from "react"
 import Head from "next/head"
-import { ChevronsUpDown } from "lucide-react"
 
 import { Layout } from "@/components/layout"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import {
   Collapsible,
@@ -31,13 +31,13 @@ export default function OrganizationPage() {
           {/* STARTS DIRECTOR */}
           <article className="-mx-4 flex justify-center py-4 sm:-mx-0">
             <section className="flex items-center justify-start p-2">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                loading="lazy"
-                src="/img/leader/mul.jpg"
-                alt="Sri Mulyani"
-                className="z-10 h-16 w-16 shrink-0 rounded-full object-cover shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20"
-              />
+              <Avatar className="z-10 h-16 w-16 shrink-0 rounded-full shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20">
+                <AvatarImage
+                  src="/img/leader/mul.jpg"
+                  className="object-cover"
+                />
+                <AvatarFallback>Sri Mulyani</AvatarFallback>
+              </Avatar>
               <div className="-ml-3 h-16 w-60 rounded-r-full bg-slate-50 shadow md:w-64">
                 <div className="flex flex-col items-center justify-between pt-2">
                   <h3 className="text-md font-semibold text-slate-900">
@@ -54,13 +54,13 @@ export default function OrganizationPage() {
           {/* STARTS SUB-DIRECTORAL */}
           <article className="-mx-4 flex flex-col items-center justify-start py-4 sm:-mx-0 sm:flex-row sm:justify-between sm:px-4 md:px-12">
             <section className="flex items-center justify-start p-2">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                loading="lazy"
-                src="/img/leader/nandi.jpg"
-                alt="Sunardi Sofjan"
-                className="z-10 h-16 w-16 shrink-0 rounded-full object-cover shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20"
-              />
+              <Avatar className="z-10 h-16 w-16 shrink-0 rounded-full shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20">
+                <AvatarImage
+                  src="/img/leader/nandi.jpg"
+                  className="object-cover"
+                />
+                <AvatarFallback>Sunardi Sofjan</AvatarFallback>
+              </Avatar>
               <div className="-ml-3 h-16 w-60 rounded-r-full bg-slate-50 shadow md:w-64">
                 <div className="flex flex-col items-center justify-between pt-2">
                   <h3 className="text-md font-semibold text-slate-900">
@@ -73,13 +73,13 @@ export default function OrganizationPage() {
               </div>
             </section>
             <section className="flex items-center justify-start p-2">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                loading="lazy"
-                src="/img/leader/juita.jpg"
-                alt="Juita Suar"
-                className="z-10 h-16 w-16 shrink-0 rounded-full object-cover shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20"
-              />
+              <Avatar className="z-10 h-16 w-16 shrink-0 rounded-full shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20">
+                <AvatarImage
+                  src="/img/leader/juita.jpg"
+                  className="object-cover"
+                />
+                <AvatarFallback>Juita Suar</AvatarFallback>
+              </Avatar>
               <div className="-ml-3 h-16 w-60 rounded-r-full bg-slate-50 shadow md:w-64">
                 <div className="flex flex-col items-center justify-between pt-2">
                   <h3 className="text-md font-semibold text-slate-900">
@@ -157,13 +157,10 @@ const ManagerKeuangan = () => {
     >
       <CollapsibleTrigger asChild>
         <Button variant="custom" size="sm">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            loading="lazy"
-            src="/img/leader/nina.jpg"
-            alt="Alpha"
-            className="z-10 h-16 w-16 shrink-0 rounded-full object-cover shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20"
-          />
+          <Avatar className="z-10 h-16 w-16 shrink-0 rounded-full shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20">
+            <AvatarImage src="/img/leader/nina.jpg" className="object-cover" />
+            <AvatarFallback>Alpha</AvatarFallback>
+          </Avatar>
           <div className="-ml-3 h-16 w-60 rounded-r-full bg-slate-50 shadow md:w-64">
             <div className="flex flex-col items-center justify-between pt-2">
               <h3 className="text-md font-semibold text-slate-900">
@@ -195,13 +192,10 @@ const ManagerFundRaising = () => {
     >
       <CollapsibleTrigger asChild>
         <Button variant="custom" size="sm">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            loading="lazy"
-            src="/img/leader/refi.jpg"
-            alt="Refi Murzaki"
-            className="z-10 h-16 w-16 shrink-0 rounded-full object-cover shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20"
-          />
+          <Avatar className="z-10 h-16 w-16 shrink-0 rounded-full shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20">
+            <AvatarImage src="/img/leader/refi.jpg" className="object-cover" />
+            <AvatarFallback>Refi Murzaki</AvatarFallback>
+          </Avatar>
           <div className="-ml-3 h-16 w-60 rounded-r-full bg-slate-50 shadow md:w-64">
             <div className="flex flex-col items-center justify-between pt-2">
               <h3 className="text-md font-semibold text-slate-900">
@@ -217,13 +211,13 @@ const ManagerFundRaising = () => {
       <CollapsibleContent className="mt-9 flex flex-col space-y-5 px-4 lg:mt-12">
         {data.map((d) => (
           <section className="flex items-center" key={d.id}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              loading="lazy"
-              src={`/img/leader/${d.nickname}.jpg`}
-              alt={d.nickname}
-              className="z-10 h-12 w-12 shrink-0 rounded-full object-cover shadow ring-2 ring-teal-600 ring-offset-4 md:h-16 md:w-16"
-            />
+            <Avatar className="z-10 h-12 w-12 shrink-0 rounded-full shadow ring-2 ring-teal-600 ring-offset-4 md:h-16 md:w-16">
+              <AvatarImage
+                src={`/img/leader/${d.nickname}.jpg`}
+                className="object-cover"
+              />
+              <AvatarFallback>{d.nickname}</AvatarFallback>
+            </Avatar>
             <div className="-ml-2 h-12 w-56 rounded-r-full bg-slate-50 shadow md:h-14">
               <div className="flex flex-col items-center justify-between pt-2">
                 <h3 className="text-sm font-semibold text-slate-900 md:text-base">
@@ -255,13 +249,10 @@ const ManagerProgram = () => {
     >
       <CollapsibleTrigger asChild>
         <Button variant="custom" size="sm">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            loading="lazy"
-            src="/img/leader/rizal.jpg"
-            alt="Rizal Aburusman"
-            className="z-10 h-16 w-16 shrink-0 rounded-full object-cover shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20"
-          />
+          <Avatar className="z-10 h-16 w-16 shrink-0 rounded-full shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20">
+            <AvatarImage src="/img/leader/rizal.jpg" className="object-cover" />
+            <AvatarFallback>Rizal Aburusman</AvatarFallback>
+          </Avatar>
           <div className="-ml-3 h-16 w-60 rounded-r-full bg-slate-50 shadow md:w-64">
             <div className="flex flex-col items-center justify-between pt-2">
               <h3 className="text-md font-semibold text-slate-900">
@@ -277,13 +268,13 @@ const ManagerProgram = () => {
       <CollapsibleContent className="mt-9 flex flex-col space-y-5 px-4 lg:mt-12">
         {data.map((d) => (
           <section className="flex items-center" key={d.id}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              loading="lazy"
-              src={`/img/leader/${d.nickname}.jpg`}
-              alt={d.nickname}
-              className="z-10 h-12 w-12 shrink-0 rounded-full object-cover shadow ring-2 ring-teal-600 ring-offset-4 md:h-16 md:w-16"
-            />
+            <Avatar className="z-10 h-12 w-12 shrink-0 rounded-full shadow ring-2 ring-teal-600 ring-offset-4 md:h-16 md:w-16">
+              <AvatarImage
+                src={`/img/leader/${d.nickname}.jpg`}
+                className="object-cover"
+              />
+              <AvatarFallback>{d.nickname}</AvatarFallback>
+            </Avatar>
             <div className="-ml-2 h-12 w-56 rounded-r-full bg-slate-50 shadow md:h-14">
               <div className="flex flex-col items-center justify-between pt-2">
                 <h3 className="text-sm font-semibold text-slate-900 md:text-base">
@@ -311,13 +302,10 @@ const CreativeDigital = () => {
     >
       <CollapsibleTrigger asChild>
         <Button variant="custom" size="sm">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            loading="lazy"
-            src="/img/leader/andri.jpg"
-            alt="Andri"
-            className="z-10 h-16 w-16 shrink-0 rounded-full object-cover shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20"
-          />
+          <Avatar className="z-10 h-16 w-16 shrink-0 rounded-full shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20">
+            <AvatarImage src="/img/leader/andri.jpg" className="object-cover" />
+            <AvatarFallback>Andri</AvatarFallback>
+          </Avatar>
           <div className="-ml-3 h-16 w-60 rounded-r-full bg-slate-50 shadow md:w-64">
             <div className="flex flex-col items-center justify-between pt-2">
               <h3 className="text-md font-semibold text-slate-900">
