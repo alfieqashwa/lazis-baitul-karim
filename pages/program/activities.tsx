@@ -35,19 +35,17 @@ export default function ActivitiesPage() {
             <strong>
               Ibu Hj. Kurniasih Mufidayati - Anggota Komisi IX DPR RI
             </strong>
-            . <strong>Pak Anies Baswedan</strong> yang sedianya hadir,
-            Alhamdulillah mengirimkan video ucapan selamat atas terselenggaranya
-            acara ini.
-            <p>
-              Kegiatan tersebut brlangsung pada Hari Ahad, tanggal 5 Februari
-              2023 di Lapangan Masjid Baitul Karim.
-            </p>
+            .
+          </p>
+          <p>
+            <strong>Pak Anies Baswedan</strong> yang sedianya hadir,{" "}
+            <em>Alhamdulillah</em> mengirimkan video ucapan selamat atas
+            terselenggaranya acara ini. Kegiatan tersebut berlangsung pada Hari
+            Ahad, tanggal 5 Februari 2023 di Lapangan Masjid Baitul Karim.
           </p>
         </div>
       </section>
-      <section className="mx-auto w-full max-w-7xl columns-2 gap-1 px-4 md:columns-3 lg:columns-5 xl:px-0">
-        <MiladGallery />
-      </section>
+      <MiladGallery />
     </Layout>
   )
 }

@@ -1,4 +1,6 @@
-import { useState } from "react"
+"use client"
+
+import { useEffect, useState } from "react"
 import Image from "next/image"
 
 export const MiladGallery = () => {
@@ -26,7 +28,7 @@ export const MiladGallery = () => {
   ])
 
   return (
-    <>
+    <div className="mx-auto w-full max-w-7xl columns-2 gap-1 px-4 md:columns-3 lg:columns-5 xl:px-0">
       {milad?.map((m) => (
         <Image
           className="w-full object-cover ring-4 ring-fuchsia-100"
@@ -35,8 +37,9 @@ export const MiladGallery = () => {
           width="200"
           height="100"
           priority
+          key={m.title}
         />
       ))}
-    </>
+    </div>
   )
 }
