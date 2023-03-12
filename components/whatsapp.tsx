@@ -17,8 +17,8 @@ export const Whatsapp = (): JSX.Element => (
         <Image
           src="/img/icon-whatsapp.svg"
           alt="whatsapp-logo"
-          width={55}
-          height={55}
+          width={50}
+          height={50}
         />
       </a>
     </div>

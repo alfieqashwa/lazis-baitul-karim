@@ -25,18 +25,20 @@ export default function VissionPage() {
           <article className="space-y-2">
             <h3 className="text-xl font-bold">Visi</h3>
             <p>
-              Menjadi Lembaga Amil Zakat, Infaq dan Shodaqoh yang amanah dan
-              profesional dalam membangun kemandirian umat, khususnya yatim dan
-              dhu’afa
+              Menjadi Lembaga Amil Zakat, Infaq dan Shodaqoh (LAZIS) yang amanah
+              dan profesional dalam membangun kemandirian umat, khususnya yatim
+              dan dhu’afa
             </p>
           </article>
           <article className="space-y-2">
             <h3 className="text-xl font-bold">Misi</h3>
             <ol className="list-outside list-decimal pl-5">
-              <li>Membangun kemandirian umat, khususnya yatim dan dhu’afa.</li>
+              <li>
+                Membangun kemandirian umat, khususnya yatim dan dhu&apos;afa.
+              </li>
               <li>
                 Meningkatkan sinergi dengan masyarakat dan sumber daya lainnya
-                untuk kemandirian umat, anak-anak yatim dan dhu’afa.
+                untuk kemandirian umat, anak-anak yatim dan dhu&apos;afa.
               </li>
               <li>
                 Meningkatkan sinergi, jaringan dan profesionalitas organisasi.
