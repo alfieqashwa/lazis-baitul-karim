@@ -44,6 +44,10 @@ export const siteConfig: SiteConfig = {
       href: "/program/programs",
     },
     {
+      title: "Kegiatan",
+      href: "/program/activities",
+    },
+    {
       title: "Rekening & QRIS",
       href: "/program/account-qris",
     },

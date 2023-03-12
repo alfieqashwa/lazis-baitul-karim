@@ -30,9 +30,9 @@ interface MainNavProps {
 
 const components: { title: string; href: string; description: string }[] = [
   {
-    title: "Program-program",
+    title: "Prinsip & program",
     href: "/program/programs",
-    description: "Berbagai program jangka pendek & jangka panjang.",
+    description: "Prinsip serta program jangka pendek & jangka panjang.",
   },
   {
     title: "Kegiatan-kegiatan",
@@ -112,7 +112,7 @@ export function MainNav({ items, mobileItems }: MainNavProps) {
                             href="/about-us/organization"
                             title="Struktur Organisasi"
                           >
-                            Prinsip-prinsip serta susunan kepengurusan.
+                            Struktur serta susunan kepengurusan.
                           </ListItem>
                         </ul>
                       </NavigationMenuContent>
