@@ -18,10 +18,10 @@ export default function ProfilePage() {
         id="profile"
         className="container grid items-center gap-6 pt-6 pb-8 md:py-10"
       >
-        <h2 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-5xl">
+        <h2 className="gradient-title py-1 text-2xl font-extrabold sm:text-2xl md:text-4xl lg:text-5xl">
           Profil
         </h2>
-        <section className="mt-4 space-y-2 text-lg tracking-wide">
+        <section className="space-y-2 text-lg tracking-wide">
           <p>
             Lembaga Amil Zakat, Infaq dan Shodaqoh (LAZIS) Baitul Karim berdiri
             pada hari Sabtu, 5 Februari 2022, ba&apos;da ashar di masjid Baitul

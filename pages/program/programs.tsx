@@ -15,7 +15,7 @@ export default function ProgramsPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
-        <h2 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-5xl">
+        <h2 className="gradient-title py-1 text-2xl font-extrabold sm:text-2xl md:text-4xl lg:text-5xl">
           Prinsip
         </h2>
         <div className="space-y-2 text-lg tracking-wide">
@@ -48,7 +48,7 @@ export default function ProgramsPage() {
         </div>
       </section>
       <section className="container mt-4 grid items-center gap-6">
-        <h2 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-5xl">
+        <h2 className="gradient-title py-1 text-2xl font-extrabold sm:text-2xl md:text-4xl lg:text-5xl">
           Program
         </h2>
         <div className="space-y-2 text-lg tracking-wide">
