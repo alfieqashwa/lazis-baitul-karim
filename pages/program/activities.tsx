@@ -19,30 +19,8 @@ export default function ActivitiesPage() {
         <h2 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-5xl">
           Kegiatan-kegiatan
         </h2>
-        <div className="mt-4 space-y-2 text-lg tracking-wide">
-          <h3 className="pt-4 text-xl font-bold">
-            MILAD KE – 1 LAZIS BAITUL KARIM
-          </h3>
-          <p>
-            Pada tanggal 5 Februari 2023 telah diadakan program Belanja Pangan
-            Bayar Dengan Doa, bersamaan dengan kegiatan tasyakuran Milad ke-1
-            LAZIS Baitul Karim di Lapangan Masjid Baitul Karim. Acara ini
-            dihadiri oleh
-            <em> 130 orang Yatim & Dhuafa</em>. Selain itu, kegiatan tersebut
-            juga dihadiri oleh{" "}
-            <strong>
-              Ibu Hj. Kurniasih Mufidayati - Anggota Komisi IX DPR RI
-            </strong>
-            .
-          </p>
-          <p>
-            <strong>Pak Anies Baswedan</strong> yang sedianya hadir,{" "}
-            <em>Alhamdulillah</em> mengirimkan video ucapan selamat atas
-            terselenggaranya acara ini.
-          </p>
-        </div>
+        <MiladGallery />
       </section>
-      <MiladGallery />
     </Layout>
   )
 }
