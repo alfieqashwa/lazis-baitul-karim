@@ -1,7 +1,11 @@
 import Head from "next/head"
 
-import { MiladGallery } from "@/components/galleries/milad"
-import { SunatGallery } from "@/components/galleries/sunat"
+import {
+  BerasGallery,
+  DongengGallery,
+  MiladGallery,
+  SunatGallery,
+} from "@/components/galleries"
 import { Layout } from "@/components/layout"
 
 export default function ActivitiesPage() {
@@ -23,6 +27,8 @@ export default function ActivitiesPage() {
         <div className="mt-8 space-y-16">
           <MiladGallery />
           <SunatGallery />
+          <BerasGallery />
+          <DongengGallery />
         </div>
       </section>
     </Layout>
