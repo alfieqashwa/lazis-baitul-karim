@@ -1,5 +1,6 @@
 import Head from "next/head"
 
+import { Icons } from "@/components/icons"
 import { Layout } from "@/components/layout"
 
 export default function OurContactPage() {
@@ -24,19 +25,42 @@ export default function OurContactPage() {
             Baitul Karim. Jl. Kebon Kacang 14-16, Tanah Abang – Jakarta Pusat
           </p>
           <h3 className="pt-4 text-xl font-bold uppercase">telepon</h3>
-          <ul className="list-outside list-disc pl-6">
-            <li>0822-1127-5656 (LAZIS Whatsapp)</li>
-            <li>0853-1234-7030 (Nandi)</li>
-            <li>0818-0689-9520 (Nanto)</li>
-            <li>0878-8685-7806 (Refi)</li>
+          <ul className="pl-2">
+            <li className="flex items-center space-x-2">
+              <Icons.message className="h-5 w-5 shrink-0" />
+              <span>0822-1127-5656 (LAZIS Whatsapp)</span>
+            </li>
+            <li className="flex items-center space-x-2">
+              <Icons.phone className="h-5 w-5 shrink-0" />
+              <span>0853-1234-7030 (Nandi)</span>
+            </li>
+            <li className="flex items-center space-x-2">
+              <Icons.phone className="h-5 w-5 shrink-0" />
+              <span>0818-0689-9520 (Nanto)</span>
+            </li>
+            <li className="flex items-center space-x-2">
+              <Icons.phone className="h-5 w-5 shrink-0" />
+              <span>0878-8685-7806 (Refi)</span>
+            </li>
           </ul>
           <h3 className="pt-4 text-xl font-bold uppercase">social media</h3>
-          <ul className="list-outside list-disc pl-6">
-            <li>Instagram: lazisbaitulkarim</li>
-            <li> Facebook: lazisbaitulkarim</li>
+          <ul className="space-y-1 pl-2">
+            <li className="flex items-center space-x-2">
+              <Icons.instagram className="h-6 w-6" />
+              <span>lazisbaitulkarim</span>
+            </li>
+            <li className="flex items-center space-x-2">
+              <Icons.facebook className="h-6 w-6" />
+              <span>lazisbaitulkarim</span>
+            </li>
           </ul>
           <h3 className="pt-4 text-xl font-bold uppercase">email</h3>
-          <p>lazis.mbk@gmail.com</p>
+          <ul className="pl-2">
+            <li className="flex items-center space-x-2">
+              <Icons.mail className="h-6 w-6" />
+              <span>lazis.mbk@gmail.com</span>
+            </li>
+          </ul>
         </div>
       </section>
     </Layout>
