@@ -18,7 +18,7 @@ export default function VissionPage() {
         id="vission-mission"
         className="container grid items-center gap-6 pt-6 pb-8 md:py-10"
       >
-        <h2 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-5xl">
+        <h2 className="gradient-title py-1 text-2xl font-extrabold sm:text-2xl md:text-4xl lg:text-5xl">
           Visi dan Misi
         </h2>
         <section className="mt-4 space-y-8 px-4 text-lg tracking-wide">
