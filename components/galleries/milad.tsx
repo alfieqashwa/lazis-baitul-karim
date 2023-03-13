@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Image from "next/image"
+import { DialogClose } from "@radix-ui/react-dialog"
 
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 
@@ -44,15 +45,17 @@ export const MiladGallery = () => {
             />
           </DialogTrigger>
           <DialogContent className="grid min-h-screen min-w-full place-items-center">
-            <Image
-              className="-mx-6 max-w-sm object-cover sm:max-w-md lg:max-w-xl xl:max-w-2xl"
-              src={`/img/milad/${m.title}.jpg`}
-              alt={m.title}
-              width="800"
-              height="800"
-              priority
-              key={m.title}
-            />
+            <DialogClose>
+              <Image
+                className="-mx-6 max-w-sm object-cover sm:max-w-md lg:max-w-xl xl:max-w-2xl"
+                src={`/img/milad/${m.title}.jpg`}
+                alt={m.title}
+                width="800"
+                height="800"
+                priority
+                key={m.title}
+              />
+            </DialogClose>
           </DialogContent>
         </Dialog>
       ))}
