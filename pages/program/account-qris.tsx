@@ -36,18 +36,22 @@ export default function AccountQrisPage() {
           <h3 className="pb-4 text-center text-xl font-bold capitalize md:text-2xl lg:text-3xl">
             rekening donasi LAZIS baitul karim
           </h3>
-          <section className="flex flex-col space-y-6 pt-4">
+          <section className="flex flex-col space-y-6">
             {data.map((d, i) => (
               <section key={i}>
                 <div className="mx-auto mt-8 flex w-full max-w-md flex-col items-center justify-center space-y-4 space-x-4 rounded-3xl border-4 border-teal-500 p-4 shadow-lg">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    className="h-auto w-44"
+                    className="h-auto w-44 lg:w-52"
                     src="/img/bsi.png"
                     alt="Bank Syariah Indonesia"
                   />
-                  <h2 className="text-2xl font-bold md:text-3xl">{d.phone}</h2>
-                  <p className="text-sm font-semibold text-teal-500">{d.an}</p>
+                  <h2 className="text-2xl font-bold md:text-3xl lg:text-4xl">
+                    {d.phone}
+                  </h2>
+                  <p className="text-sm font-semibold text-teal-500 lg:text-base">
+                    {d.an}
+                  </p>
                 </div>
                 <div className="mt-8 flex justify-center">
                   <Image
