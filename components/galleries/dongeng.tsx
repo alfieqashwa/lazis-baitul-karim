@@ -31,7 +31,7 @@ export const DongengGallery = () => {
           <em>23 Maret 2022 di Lapangan Masjid Baitul Karim.</em>
         </p>
       </div>
-      <div className="mx-auto mt-8 w-full max-w-7xl columns-2 gap-1 px-4 md:columns-3 lg:columns-5 xl:px-0">
+      <div className="gallery-wrapper">
         {datas?.map((d) => (
           <ImagesModal title={d.title} folder="dongeng" key={d.title} />
         ))}

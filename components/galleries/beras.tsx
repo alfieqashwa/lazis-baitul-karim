@@ -27,7 +27,7 @@ export const BerasGallery = () => {
           <em>pada Hari Sabtu, 6 Agustus 2022 di Masjid Baitul Karim.</em>
         </p>
       </div>
-      <div className="mx-auto mt-8 w-full max-w-7xl columns-2 gap-1 px-4 md:columns-3 lg:columns-5 xl:px-0">
+      <div className="gallery-wrapper">
         {datas?.map((d) => (
           <ImagesModal title={d.title} folder="beras" key={d.title} />
         ))}
