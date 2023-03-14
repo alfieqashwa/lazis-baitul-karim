@@ -20,7 +20,7 @@ export default function IndexPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div
-        className="thom min-h-screen bg-cover bg-fixed bg-center bg-no-repeat opacity-50 md:bg-top"
+        className="thom -mb-14 min-h-screen bg-cover bg-fixed bg-center bg-no-repeat opacity-50 md:bg-top"
         style={{ backgroundImage: "url('/img/orphan.avif')" }}
       >
         <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
