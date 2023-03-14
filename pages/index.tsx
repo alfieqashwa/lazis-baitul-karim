@@ -20,11 +20,11 @@ export default function IndexPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div
-        className="thom -mb-14 min-h-screen bg-cover bg-fixed bg-center bg-no-repeat opacity-50 md:bg-top"
+        className="-mb-14 min-h-screen bg-cover bg-fixed bg-center bg-no-repeat opacity-50 md:bg-top"
         style={{ backgroundImage: "url('/img/orphan.avif')" }}
       >
-        <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
-          <div className="flex max-w-[980px] flex-col items-start gap-2">
+        <section className="container grid items-center gap-6">
+          <div className="mt-20 flex max-w-[980px] flex-col items-start md:mt-28">
             <h1 className="gradient-title relative text-3xl font-extrabold sm:text-3xl md:text-5xl lg:text-6xl">
               LAZIS Baitul Karim <br className="hidden sm:inline" />
               Cinta Yatim di Cinta Nabi.
