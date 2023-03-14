@@ -1,10 +1,12 @@
 import Head from "next/head"
+import Image from "next/image"
 import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import { Layout } from "@/components/layout"
 import { buttonVariants } from "@/components/ui/button"
 
+// <div className="bg-[url('/img/orphan.avif')]"></div>
 export default function IndexPage() {
   return (
     <Layout>
@@ -17,35 +19,40 @@ export default function IndexPage() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
-        <div className="flex max-w-[980px] flex-col items-start gap-2">
-          <h1 className="gradient-title text-3xl font-extrabold sm:text-3xl md:text-5xl lg:text-6xl">
-            LAZIS Baitul Karim <br className="hidden sm:inline" />
-            Cinta Yatim di Cinta Nabi.
-          </h1>
-          <p className="max-w-[700px] text-lg text-slate-700 dark:text-slate-300 sm:text-xl">
-            Lembaga Amil Zakat, Infaq dan Shodaqoh.
-          </p>
-        </div>
-        <div className="flex gap-4">
-          <Link
-            href={siteConfig.links.docs}
-            target="_blank"
-            rel="noreferrer"
-            className={buttonVariants({ size: "lg" })}
-          >
-            Documentation
-          </Link>
-          <Link
-            target="_blank"
-            rel="noreferrer"
-            href={siteConfig.links.instagram}
-            className={buttonVariants({ variant: "outline", size: "lg" })}
-          >
-            Instagram
-          </Link>
-        </div>
-      </section>
+      <div
+        className="thom min-h-screen bg-cover bg-fixed bg-center bg-no-repeat opacity-50 md:bg-top"
+        style={{ backgroundImage: "url('/img/orphan.avif')" }}
+      >
+        <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
+          <div className="flex max-w-[980px] flex-col items-start gap-2">
+            <h1 className="gradient-title relative text-3xl font-extrabold sm:text-3xl md:text-5xl lg:text-6xl">
+              LAZIS Baitul Karim <br className="hidden sm:inline" />
+              Cinta Yatim di Cinta Nabi.
+            </h1>
+            <p className="max-w-[700px] text-lg text-slate-700 dark:text-slate-300 sm:text-xl">
+              Lembaga Amil Zakat, Infaq dan Shodaqoh.
+            </p>
+          </div>
+          <div className="flex gap-4">
+            <Link
+              href={siteConfig.links.docs}
+              target="_blank"
+              rel="noreferrer"
+              className={buttonVariants({ size: "lg" })}
+            >
+              Documentation
+            </Link>
+            <Link
+              target="_blank"
+              rel="noreferrer"
+              href={siteConfig.links.instagram}
+              className={buttonVariants({ variant: "outline", size: "lg" })}
+            >
+              Instagram
+            </Link>
+          </div>
+        </section>
+      </div>
     </Layout>
   )
 }

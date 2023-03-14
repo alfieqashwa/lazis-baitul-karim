@@ -12,4 +12,7 @@
   .gradient-title {
     @apply leading-tight tracking-tighter bg-gradient-to-bl from-amber-400 via-amber-500 to-amber-700 dark:bg-gradient-to-br dark:from-amber-50 dark:via-amber-400 dark:to-amber-600 bg-clip-text text-transparent dark:bg-clip-text dark:text-transparent;
   }
+  .gallery-wrapper {
+    @apply mx-auto mt-8 w-full max-w-7xl columns-2 gap-1 lg:gap-1.5 md:columns-3 lg:columns-5;
+  }
 }
