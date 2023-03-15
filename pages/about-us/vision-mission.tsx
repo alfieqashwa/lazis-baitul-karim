@@ -1,19 +1,10 @@
-import Head from "next/head"
-
+import { Header } from "@/components/header"
 import { Layout } from "@/components/layout"
 
 export default function VissionPage() {
   return (
     <Layout>
-      <Head>
-        <title>Lazis Baitul Karim</title>
-        <meta
-          name="description"
-          content="Lembaga Amil Zakat Infaq dan Sodaqoh"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Header title="Visi & Misi" />
       <section
         id="vission-mission"
         className="container grid items-center gap-6 pt-6 pb-8 md:py-10"

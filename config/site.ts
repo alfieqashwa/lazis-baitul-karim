@@ -44,7 +44,7 @@ export const siteConfig: SiteConfig = {
       href: "/program/programs",
     },
     {
-      title: "Kegiatan",
+      title: "Aktivitas",
       href: "/program/activities",
     },
     {

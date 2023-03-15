@@ -1,6 +1,6 @@
 import { useState } from "react"
-import Head from "next/head"
 
+import { Header } from "@/components/header"
 import { Layout } from "@/components/layout"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
@@ -13,15 +13,7 @@ import {
 export default function OrganizationPage() {
   return (
     <Layout>
-      <Head>
-        <title>Lazis Baitul Karim</title>
-        <meta
-          name="description"
-          content="Lembaga Amil Zakat Infaq dan Sodaqoh"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Header title="Organisasi" />
       <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
         <h2 className="gradient-title py-1 text-2xl font-extrabold sm:text-2xl md:text-4xl lg:text-5xl">
           Struktur Organisasi
