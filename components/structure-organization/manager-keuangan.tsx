@@ -20,7 +20,7 @@ export const ManagerKeuangan = () => {
           </Avatar>
           <div className="-ml-3 h-16 w-60 rounded-r-full bg-slate-50 shadow md:w-64">
             <div className="flex flex-col items-center justify-between pt-2">
-              <h3 className="text-md font-semibold text-slate-900">
+              <h3 className="text-md font-semibold text-slate-900 md:text-base">
                 Alpha G.K. S.Kom, S.Pd
               </h3>
               <h4 className="md:text-md text-sm font-bold uppercase text-sky-700">
