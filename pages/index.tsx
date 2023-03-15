@@ -1,8 +1,7 @@
-import Head from "next/head"
-import Image from "next/image"
 import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
+import { Header } from "@/components/header"
 import { Layout } from "@/components/layout"
 import { buttonVariants } from "@/components/ui/button"
 
@@ -10,15 +9,7 @@ import { buttonVariants } from "@/components/ui/button"
 export default function IndexPage() {
   return (
     <Layout>
-      <Head>
-        <title>Lazis Baitul Karim</title>
-        <meta
-          name="description"
-          content="Lembaga Amil Zakat Infaq dan Shodaqoh"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Header title="Home" />
       <div
         className="-mb-14 min-h-screen bg-cover bg-fixed bg-center bg-no-repeat opacity-90 dark:opacity-80 md:bg-top"
         style={{ backgroundImage: "url('/img/orphan.avif')" }}

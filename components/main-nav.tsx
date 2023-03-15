@@ -35,7 +35,7 @@ const components: { title: string; href: string; description: string }[] = [
     description: "Prinsip serta program jangka pendek & jangka panjang.",
   },
   {
-    title: "Kegiatan-kegiatan",
+    title: "Aktivitas",
     href: "/program/activities",
     description:
       "Santunan anak yatim, sosialisasi qurban, pengajian, sunatan massal, dan sebagainya.",
