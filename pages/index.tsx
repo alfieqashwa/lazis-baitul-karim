@@ -20,7 +20,7 @@ export default function IndexPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div
-        className="-mb-14 min-h-screen bg-cover bg-fixed bg-center bg-no-repeat opacity-50 md:bg-top"
+        className="-mb-14 min-h-screen bg-cover bg-fixed bg-center bg-no-repeat opacity-90 dark:opacity-80 md:bg-top"
         style={{ backgroundImage: "url('/img/orphan.avif')" }}
       >
         <section className="container grid items-center gap-6">
@@ -29,7 +29,7 @@ export default function IndexPage() {
               LAZIS Baitul Karim <br className="hidden sm:inline" />
               Cinta Yatim di Cinta Nabi.
             </h1>
-            <p className="max-w-[700px] text-lg text-slate-700 dark:text-slate-300 sm:text-xl">
+            <p className="max-w-[700px] text-lg text-slate-100 dark:text-slate-100 sm:text-xl md:text-2xl">
               Lembaga Amil Zakat, Infaq dan Shodaqoh.
             </p>
           </div>
@@ -46,7 +46,10 @@ export default function IndexPage() {
               target="_blank"
               rel="noreferrer"
               href={siteConfig.links.instagram}
-              className={buttonVariants({ variant: "outline", size: "lg" })}
+              className={buttonVariants({
+                variant: "customOutline",
+                size: "lg",
+              })}
             >
               Instagram
             </Link>

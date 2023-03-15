@@ -21,6 +21,8 @@ const buttonVariants = cva(
         link: "bg-transparent underline-offset-4 hover:underline text-slate-900 dark:text-slate-100 hover:bg-transparent dark:hover:bg-transparent",
         custom:
           "bg-transparent focus:ring-0 focus:ring-transparent focus:ring-offset-0 hover:bg-transparent dark:hover:bg-transparent data-[state=open]:bg-transparent dark:data-[state=open]:bg-transparent",
+        customOutline:
+          "bg-transparent border text-slate-100 hover:text-slate-800 border-slate-200 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-100",
       },
       size: {
         default: "h-10 py-2 px-4",
