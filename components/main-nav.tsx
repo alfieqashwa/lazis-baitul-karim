@@ -161,7 +161,7 @@ export function MainNav({ items, mobileItems }: MainNavProps) {
         <DropdownMenuContent
           align="start"
           sideOffset={24}
-          className="w-[300px] overflow-scroll"
+          className="thom -mt-2 w-[300px] overflow-scroll"
         >
           <DropdownMenuLabel>
             <NextLink href="/" className="flex items-center">
