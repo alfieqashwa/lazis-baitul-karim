@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 const PHONE = "6282211275656"
 const SPACE = "%20"
-const CONTACT = `https://wa.me/${PHONE}?text=Assalaamu${SPACE}'alaikum!${SPACE}Saya${SPACE}hendak${SPACE}berinfaq${SPACE}melalui${SPACE}LAZIS${SPACE}Baitul${SPACE}Karim.${SPACE}Bagaimana${SPACE}prosesnya?${SPACE}Syukran!`
+const CONTACT = `https://wa.me/${PHONE}?text=Assalaamu${SPACE}'alaikum.${SPACE}Saya${SPACE}hendak${SPACE}berzakat${SPACE}atau${SPACE}berinfaq${SPACE}dan${SPACE}bershodaqoh${SPACE}di${SPACE}LAZIS${SPACE}Baitul${SPACE}Karim.${SPACE}Bagaimana${SPACE}prosesnya?${SPACE}Terima${SPACE}Kasih.`
 
 export const Whatsapp = (): JSX.Element => (
   <motion.div
