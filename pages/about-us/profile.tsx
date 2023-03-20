@@ -40,7 +40,11 @@ export default function ProfilePage() {
             />
           </div>
           <p>
-            Yatim Mandiri terdaftar di depkumham Republik Indonesia dengan
+            Yatim Mandiri terdaftar di{" "}
+            <strong>
+              Departemen Hukum dan Hak Asasi Manusia Republik Indonesia
+            </strong>{" "}
+            dengan
             <strong> Nomor : Ahu-2413.ah.01.02.2008</strong>. Yatim Mandiri juga
             telah resmi terdaftar menjadi Lembaga Amil Zakat, Infaq dan Shodaqoh
             Nasional berdasarkan
