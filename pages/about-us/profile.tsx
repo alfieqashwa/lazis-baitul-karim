@@ -2,6 +2,7 @@ import Image from "next/image"
 
 import { Header } from "@/components/header"
 import { Layout } from "@/components/layout"
+import { LazisLogo } from "@/components/ui/lazis-logo"
 
 export default function ProfilePage() {
   return (
@@ -14,6 +15,24 @@ export default function ProfilePage() {
         <h2 className="gradient-title py-1 text-2xl font-extrabold sm:text-2xl md:text-4xl lg:text-5xl">
           Profil
         </h2>
+        <div className="flex flex-col items-center space-y-6 py-6 md:flex-row md:justify-evenly md:space-y-0">
+          <Image
+            src="/favicon.ico"
+            alt="Yatim Mandiri"
+            width={175}
+            height={175}
+            priority
+            className="transition-all duration-300 ease-in-out hover:scale-105"
+          />
+          <Image
+            src="/img/logo/yatim-mandiri-logo.jpg"
+            alt="Yatim Mandiri"
+            width={280}
+            height={280}
+            priority
+            className="rounded-md transition-all duration-300 ease-in-out hover:scale-105"
+          />
+        </div>
         <article className="space-y-2 text-lg tracking-wide">
           <p>
             Lembaga Amil Zakat, Infaq dan Shodaqoh (LAZIS) Baitul Karim berdiri
@@ -31,14 +50,6 @@ export default function ProfilePage() {
           </p>
         </article>
         <article className="space-y-2 text-lg tracking-wide">
-          <div className="flex justify-center py-6">
-            <Image
-              src="/img/logo/yatim-mandiri-logo.jpg"
-              alt="Yatim Mandiri"
-              width={300}
-              height={300}
-            />
-          </div>
           <p>
             Yatim Mandiri terdaftar di{" "}
             <strong>
