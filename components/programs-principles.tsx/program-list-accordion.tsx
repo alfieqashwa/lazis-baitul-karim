@@ -9,27 +9,27 @@ const PROGRAMS = [
   {
     title: "jangka pendek",
     descriptions: [
-      { id: 1, description: "Belanja Sandang Bayar dengan Doa" },
-      { id: 2, description: "Raihlah Yatim Dhu&apos;afa" },
-      { id: 3, description: "Sunatan Massal" },
+      { id: 1, description: "Belanja Sandang Bayar dengan Doa." },
+      { id: 2, description: "Raihlah Yatim Dhu'afa." },
+      { id: 3, description: "Sunatan Massal." },
     ],
   },
   {
     title: "jangka panjang",
     descriptions: [
-      { id: 1, description: "Jum&apos;at Berkah" },
-      { id: 2, description: "Beasiswa Pendidikan Yatim dan Dhu&apos;afa" },
-      { id: 3, description: "Sembako untuk keluarga Yatim dan Dhu&apos;afa" },
+      { id: 1, description: "Jum'at Berkah." },
+      { id: 2, description: "Beasiswa Pendidikan Yatim dan Dhu'afa." },
+      { id: 3, description: "Sembako untuk keluarga Yatim dan Dhu'afa." },
       {
         id: 4,
-        description: "Pembiayaan UMKM untuk memandirikan Yatim Dan Dhu’afa",
+        description: "Pembiayaan UMKM untuk memandirikan Yatim Dan Dhu'afa.",
       },
       {
         id: 5,
         description:
-          "Bantuan untuk kaum muslimin yg terkena penyakit berat tapi tdk mampu berobat",
+          "Bantuan untuk kaum muslimin yg terkena penyakit berat tapi tdk mampu berobat.",
       },
-      { id: 6, description: "Rumah Tahfidz untuk Yatim & Dhu&apos;afa" },
+      { id: 6, description: "Rumah Tahfidz untuk Yatim & Dhu'afa." },
     ],
   },
 ]
