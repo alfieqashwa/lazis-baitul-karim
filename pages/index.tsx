@@ -5,7 +5,6 @@ import { Header } from "@/components/header"
 import { Layout } from "@/components/layout"
 import { buttonVariants } from "@/components/ui/button"
 
-// <div className="bg-[url('/img/orphan.avif')]"></div>
 export default function IndexPage() {
   return (
     <Layout>

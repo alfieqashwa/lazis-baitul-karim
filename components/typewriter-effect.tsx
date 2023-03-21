@@ -1,9 +1,11 @@
 import Typewriter from "typewriter-effect"
 
-;<Typewriter
-  options={{
-    strings: ["Hello", "World"],
-    autoStart: true,
-    loop: true,
-  }}
-/>
+export const HelloTypewriter = () => (
+  <Typewriter
+    options={{
+      strings: ["Hello", "World"],
+      autoStart: true,
+      loop: true,
+    }}
+  />
+)
