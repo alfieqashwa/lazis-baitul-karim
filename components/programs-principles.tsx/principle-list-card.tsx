@@ -41,7 +41,7 @@ export const PrincipleListCard = () => (
         key={d.icon}
       >
         <Image
-          className="h-32 w-32 rounded-lg bg-gradient-to-bl from-amber-100 via-amber-300 to-amber-500 p-3 shadow-lg transition duration-300 ease-in-out hover:scale-105"
+          className="h-32 w-32 rounded-lg bg-gradient-to-bl from-amber-100 via-amber-300 to-amber-500 p-3 shadow-lg transition-all duration-300 ease-in-out hover:scale-105"
           src={`/img/principle/${d.icon}.png`}
           alt={d.icon}
           width={100}
