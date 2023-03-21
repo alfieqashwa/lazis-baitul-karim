@@ -18,7 +18,7 @@ export default function ProfilePage() {
         <div className="flex flex-col items-center space-y-6 py-6 md:flex-row md:justify-evenly md:space-y-0">
           <Image
             src="/favicon.ico"
-            alt="Yatim Mandiri"
+            alt="Lazis"
             width={175}
             height={175}
             priority
