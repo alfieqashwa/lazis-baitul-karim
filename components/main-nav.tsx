@@ -22,6 +22,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu"
+import { YatimMandiriLogo } from "./ui/yatim-mandiri-logo"
 
 interface MainNavProps {
   items?: NavItem[]
@@ -82,9 +83,13 @@ export function MainNav({ items, mobileItems }: MainNavProps) {
                                 href="/"
                               >
                                 {/* <Icons.logo className="h-6 w-6 text-white" /> */}
-                                <LazisLogo />
+                                <div className="flex items-center justify-around">
+                                  <LazisLogo />
+                                  <YatimMandiriLogo />
+                                </div>
                                 <div className="my-4 text-lg font-medium text-white">
-                                  LAZIS Baitul Karim
+                                  <p>LAZIS</p>
+                                  <p>Baitul Karim</p>
                                 </div>
                                 <p className="text-sm leading-tight text-white/90">
                                   Lembaga Amil Zakat, Infaq dan Shodaqoh.
