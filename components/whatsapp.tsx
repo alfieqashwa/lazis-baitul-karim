@@ -7,7 +7,7 @@ const CONTACT = `https://wa.me/${PHONE}?text=Assalaamu${SPACE}'alaikum.${SPACE}S
 
 export const Whatsapp = (): JSX.Element => (
   <motion.div
-    className="fixed bottom-6 right-0.5 z-50"
+    className="fixed bottom-2 right-2 z-50"
     whileHover={{ scale: 1.1 }}
     whileTap={{ scale: 0.9 }}
     transition={{ duration: 0.3 }}
