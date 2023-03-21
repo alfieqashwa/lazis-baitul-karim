@@ -46,6 +46,7 @@ export const PrincipleListCard = () => (
           alt={d.icon}
           width={100}
           height={100}
+          priority
         />
         <article className="flex w-full flex-col space-y-4 text-center">
           <h3 className="gradient-title text-2xl font-bold uppercase">
