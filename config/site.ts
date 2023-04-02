@@ -59,6 +59,6 @@ export const siteConfig: SiteConfig = {
   links: {
     facebook: "https://facebook.com/lazisbaitulkarim",
     instagram: "https://instagram.com/lazisbaitulkarim",
-    docs: "https://drive.google.com/file/d/17ungmBQrt26DRwDynXTrXUx8AHA7omrj/view?usp=sharing",
+    docs: "https://drive.google.com/file/d/1HGaz0DWKrc4H23nZ6BBKYMm3CgQvCCFa/view?usp=sharing"
   },
 }
