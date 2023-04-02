@@ -23,6 +23,14 @@ export default function IndexPage() {
               Lembaga Amil Zakat, Infaq dan Shodaqoh.
             </p>
           </div>
+          <div className="mt-8 text-2xl font-extrabold uppercase text-slate-100 md:text-4xl lg:text-5xl">
+            <h2>
+              Di dalam <strong className="gradient-title">harta</strong> kita
+            </h2>
+            <h2>
+              ada <strong className="gradient-title">hak</strong> mereka
+            </h2>
+          </div>
           <div className="flex gap-4">
             <Link
               href={siteConfig.links.docs}
