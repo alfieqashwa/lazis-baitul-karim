@@ -28,7 +28,7 @@ export function SiteHeader() {
                   className: "text-slate-700 dark:text-slate-400",
                 })}
               >
-                <Icons.instagram className="h-5 w-5" />
+                <Icons.instagram className="size-5" />
                 <span className="sr-only">GitHub</span>
               </div>
             </Link>
@@ -44,7 +44,7 @@ export function SiteHeader() {
                   className: "text-slate-700 dark:text-slate-400",
                 })}
               >
-                <Icons.facebook className="h-5 w-5 fill-current" />
+                <Icons.facebook className="size-5 fill-current" />
                 <span className="sr-only">Twitter</span>
               </div>
             </Link>

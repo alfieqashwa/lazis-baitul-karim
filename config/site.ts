@@ -14,8 +14,7 @@ interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   name: "Lazis Baitul Karim",
-  description:
-    "Lembaga Amil Zakat Infaq dan Sodaqoh.",
+  description: "Lembaga Amil Zakat Infaq dan Sodaqoh.",
   mainNav: [
     {
       title: "Home",
@@ -59,6 +58,7 @@ export const siteConfig: SiteConfig = {
   links: {
     facebook: "https://facebook.com/lazisbaitulkarim",
     instagram: "https://instagram.com/lazisbaitulkarim",
-    docs: "https://drive.google.com/file/d/1HGaz0DWKrc4H23nZ6BBKYMm3CgQvCCFa/view?usp=sharing"
+    // docs: "https://drive.google.com/file/d/1HGaz0DWKrc4H23nZ6BBKYMm3CgQvCCFa/view?usp=sharing"
+    docs: "https://drive.google.com/file/d/1ugKBKLuyJa-waqfGV3eKfNDKK8u8nV1l/view?usp=sharing",
   },
 }
