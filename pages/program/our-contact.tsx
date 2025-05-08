@@ -19,7 +19,7 @@ export default function OurContactPage() {
           <ul className="pl-2">
             <li className="flex items-center space-x-2">
               <Icons.message className="h-5 w-5 shrink-0" />
-              <span>0822-1127-5656 (LAZIS Whatsapp)</span>
+              <span>0812-6000-9460 (LAZIS Whatsapp)</span>
             </li>
             <li className="flex items-center space-x-2">
               <Icons.phone className="h-5 w-5 shrink-0" />
