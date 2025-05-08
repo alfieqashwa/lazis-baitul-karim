@@ -9,11 +9,7 @@ import {
 } from "@/components/ui/collapsible"
 
 export const ManagerFundraising = () => {
-  const [data] = useState([
-    { id: 1, name: "Irwan Thoib", nickname: "thoib" },
-    { id: 2, name: "Muhammad Andri", nickname: "andi" },
-    { id: 3, name: "Tasya Amalia", nickname: "tasya" },
-  ])
+  const [data] = useState([{ id: 1, name: "Muhammad Andri", nickname: "andi" }])
   const [isOpen, setIsOpen] = useState(true)
   return (
     <Collapsible

@@ -11,8 +11,8 @@ import {
 export const ManagerProgram = () => {
   const [data] = useState([
     { id: 1, name: "Sunarto Sofjan, SE", nickname: "nanto" },
-    { id: 2, name: "Ariandi Setiawan, S.Kom", nickname: "ari" },
-    { id: 3, name: "Erza Afsari", nickname: "ersa" },
+    // { id: 2, name: "Ariandi Setiawan, S.Kom", nickname: "ari" },
+    { id: 2, name: "Erza Afsari", nickname: "ersa" },
   ])
   const [isOpen, setIsOpen] = useState(true)
   return (
@@ -23,7 +23,7 @@ export const ManagerProgram = () => {
     >
       <CollapsibleTrigger asChild>
         <Button variant="custom" size="sm">
-          <Avatar className="z-10 h-16 w-16 shrink-0 rounded-full shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20">
+          <Avatar className="z-10 size-16 shrink-0 rounded-full shadow ring-2 ring-teal-600 ring-offset-4 md:h-20 md:w-20">
             <AvatarImage src="/img/leader/rizal.jpg" className="object-cover" />
             <AvatarFallback>Rizal Aburusman</AvatarFallback>
           </Avatar>
