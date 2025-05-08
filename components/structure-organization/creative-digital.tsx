@@ -30,8 +30,8 @@ export const CreativeDigital = () => {
               <h3 className="text-md font-semibold text-slate-900">
                 Andriansyah
               </h3>
-              <h4 className="md:text-md text-sm font-bold uppercase text-sky-700">
-                it & creative digital
+              <h4 className="md:text-md text-xs font-bold uppercase text-sky-700">
+                staff it & creative digital
               </h4>
             </div>
           </div>
@@ -53,7 +53,7 @@ export const CreativeDigital = () => {
                   {d.name}
                 </h3>
                 <h4 className="text-xs font-bold uppercase text-sky-700">
-                  staff program
+                  staff it & creative digital
                 </h4>
               </div>
             </div>
